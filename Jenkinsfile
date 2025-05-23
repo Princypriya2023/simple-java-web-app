@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'ubuntu_local' }
+    agent { label 'priya' }
     // agent any
 
     environment {
