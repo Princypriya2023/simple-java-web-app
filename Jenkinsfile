@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo '🔨 Running build script...'
+                echo '🔨 Running build script....'
                 sh "${BUILD_SCRIPT}"
             }
         }
